@@ -1,0 +1,180 @@
+{
+  "slug": "wodniak-kajaki",
+  "kind": "experience",
+  "realBrand": true,
+  "bookingMode": "request",
+  "brand": {
+    "name": "WODNIAK",
+    "tagline": {
+      "pl": "Turystyka Aktywna WODNIAK, Krutyń 18. Spływy kajakowe Krutynią"
+    },
+    "primary": "#ED5931",
+    "accent": "#34495E",
+    "fontPairing": "modern"
+  },
+  "currency": "PLN",
+  "languages": [
+    "pl"
+  ],
+  "depositPercent": 0,
+  "images": {
+    "hero": "images/hero.jpg",
+    "gallery": [
+      "images/baza.jpg"
+    ]
+  },
+  "units": [
+    {
+      "id": "krutyn-ukta",
+      "name": {
+        "pl": "Spływ Krutynią, trasa Krutyń - Ukta"
+      },
+      "description": {
+        "pl": "Najczęściej wybierana trasa, 15 km, około 3 do 4 godzin płynięcia. Start z bazy w Krutyni, odbiór w Ukcie. Cena obejmuje transport sprzętu, kamizelki asekuracyjne są bezpłatne."
+      },
+      "image": "images/ukta.jpg",
+      "capacity": 2,
+      "basePrice": 120,
+      "priceUnit": "flat",
+      "options": [
+        "dostawka",
+        "namiot",
+        "butla",
+        "beczka",
+        "worek",
+        "rower"
+      ]
+    },
+    {
+      "id": "krutyn-rosocha",
+      "name": {
+        "pl": "Spływ Krutynią, trasa Krutyń - Rosocha"
+      },
+      "description": {
+        "pl": "Krótszy wariant, 9 km, około 2 do 3 godzin płynięcia. Dobry na spokojne popołudnie. Cena obejmuje transport sprzętu."
+      },
+      "image": "images/start.jpg",
+      "capacity": 2,
+      "basePrice": 120,
+      "priceUnit": "flat",
+      "options": [
+        "dostawka",
+        "namiot",
+        "butla",
+        "beczka",
+        "worek",
+        "rower"
+      ]
+    },
+    {
+      "id": "krutyn-mlyn",
+      "name": {
+        "pl": "Spływ Krutynią, trasa z Krutyni do młyna"
+      },
+      "description": {
+        "pl": "Najkrótsza trasa, 5 km, około godziny płynięcia. Dla rodzin z małymi dziećmi i dla tych, którzy płyną pierwszy raz. Cena obejmuje transport sprzętu."
+      },
+      "image": "images/rodzina.jpg",
+      "capacity": 2,
+      "basePrice": 120,
+      "priceUnit": "flat",
+      "options": [
+        "dostawka",
+        "namiot",
+        "butla",
+        "beczka",
+        "worek",
+        "rower"
+      ]
+    },
+    {
+      "id": "krutyn-nowy-most",
+      "name": {
+        "pl": "Spływ Krutynią, trasa Krutyń - Nowy Most"
+      },
+      "description": {
+        "pl": "Dłuższa trasa na cały dzień, 22 km, około 6 godzin płynięcia. Cena obejmuje transport sprzętu."
+      },
+      "image": "images/grupa.jpg",
+      "capacity": 2,
+      "basePrice": 150,
+      "priceUnit": "flat",
+      "options": [
+        "dostawka",
+        "namiot",
+        "butla",
+        "beczka",
+        "worek",
+        "rower"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": "dostawka",
+      "label": {
+        "pl": "Dostawka dla dziecka w kajaku"
+      },
+      "description": {
+        "pl": "Trzecie miejsce w kajaku dwuosobowym, dla dziecka."
+      },
+      "price": 10,
+      "rule": "flat"
+    },
+    {
+      "id": "namiot",
+      "label": {
+        "pl": "Namiot igloo dwuosobowy"
+      },
+      "description": {
+        "pl": "Dla spływów bez przewodnika, do trzech dni."
+      },
+      "price": 70,
+      "rule": "flat"
+    },
+    {
+      "id": "butla",
+      "label": {
+        "pl": "Butla turystyczna z palnikiem"
+      },
+      "description": {
+        "pl": "Do gotowania na biwaku."
+      },
+      "price": 30,
+      "rule": "flat"
+    },
+    {
+      "id": "beczka",
+      "label": {
+        "pl": "Beczka hermetyczna"
+      },
+      "description": {
+        "pl": "Na aparat, telefon i suche ubranie."
+      },
+      "price": 10,
+      "rule": "flat"
+    },
+    {
+      "id": "worek",
+      "label": {
+        "pl": "Worek wodochronny"
+      },
+      "description": {
+        "pl": "Na drobiazgi, które muszą zostać suche."
+      },
+      "price": 10,
+      "rule": "flat"
+    },
+    {
+      "id": "rower",
+      "label": {
+        "pl": "Rower na cały dzień"
+      },
+      "description": {
+        "pl": "Od 8.00 do 20.00. Kask dziecięcy gratis."
+      },
+      "price": 50,
+      "rule": "flat"
+    }
+  ]
+}
